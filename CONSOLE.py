@@ -3,8 +3,8 @@ import hmac
 import hashlib
 import time
 
-api ='o0c8AJ26hJ8YtNZlasJmAY32fLmVY1yIahEUj16aYgWnNLqcNvn7BEpcHyX5YbgL'
-secret  = 'UXpJGettpQWczssx2RV4GYryYVzm68HjGTWt6Xu8wZSbvwJVWlJd9CErj5d5uIJR'
+api =''
+secret  = ''
 
 def get_binance_price(api, secret, symbol):
     # Binance API endpoint for getting current price
